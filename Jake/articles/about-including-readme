@@ -11,4 +11,4 @@
 jsdoc C:\path\to\my\JS\project\sourceFiles C:\path\to\my\JS\project\README.md
 {{/example}}
 
-<p>If your file is successfully incorporated into the default template, it's content will be rendered in beautiful HTML just before the files list.</p>
+<p>If your file is successfully incorporated into the default template, its content will be rendered in beautiful HTML just before the files list.</p>

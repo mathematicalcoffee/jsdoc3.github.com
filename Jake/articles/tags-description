@@ -16,7 +16,7 @@ The @desc tag allows you to provide a general description of the symbol you are 
 <h3>Examples</h3>
 
 <p>
-The @desc (or it's synonym @description) is the default tag in JSDoc, so if no other tag is in effect you can just start writing your description text.
+The @desc (or its synonym @description) is the default tag in JSDoc, so if no other tag is in effect you can just start writing your description text.
 </p>
 
 {{#example}}A tagless description is allowed if no other tag is in effect

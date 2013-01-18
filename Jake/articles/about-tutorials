@@ -30,7 +30,7 @@
 
 <ul>
 	<li>
-		<code>title</code> overrides display name for tutorial with the one specified in it's value (default title for tutorial is it's filename).
+		<code>title</code> overrides display name for tutorial with the one specified in its value (default title for tutorial is its filename).
 	</li>
 
 	<li>
@@ -39,7 +39,7 @@
 </ul>
 
 <p>
-	When tutorial has <code>children</code> property set, it's children will be listed in it's <em>ToC</em> as sub-articles instead of top-level navigation menu.
+	When tutorial has <code>children</code> property set, its children will be listed in its <em>ToC</em> as sub-articles instead of top-level navigation menu.
 </p>
 
 <h3>
@@ -47,7 +47,7 @@
 </h3>
 
 <p>
-	Tutorial is identified by it's filename (eg. <code>test.html</code> is named <code>test</code>). No matter to what you will change tutorial's title, it's identifier will be just <code>test</code>. Title is for displaying, name is for identifying. This allows you to link to tutorial without depending on it's variable display name.
+	A tutorial is identified by its filename (eg. <code>test.html</code> is named <code>test</code>). No matter what you change the tutorial's title to, its identifier will still be <code>test</code>. The title is for displaying, the name is for identifying. This allows you to link to tutorial without depending on its variable display name.
 </p>
 
 <h3>
