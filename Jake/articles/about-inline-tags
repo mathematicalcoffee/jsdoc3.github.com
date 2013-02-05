@@ -81,7 +81,7 @@ If the symbol path doesn't exist, then the link is not created (the link text is
 
 {{#example}}Using @link
 /** See {@link MyClass} and [MyClass's foo property]{@link MyClass#foo}.
- * Also check out {@link http://www.google.com|google} and {@link http://github.com Github}.
+ * Also check out {@link http://www.google.com|google} and {@link https://github.com Github}.
  */
 function myFunction() {}
 
@@ -99,7 +99,7 @@ The above produces (except that the first two links actually link to the generat
 
 <p>
 See <a href="#">MyClass</a> and <a href="#">MyClass's foo property</a>.
-Also check out <a href="http://www.google.com">google</a> and <a href="http://github.com">Github</a>.
+Also check out <a href="http://www.google.com">google</a> and <a href="https://github.com">Github</a>.
 </p>
 
 <p>
@@ -185,9 +185,9 @@ Suppose I had <code>templates.cleverLinks</code> switched on and a file like so:
 
 {{#example}} 
 /** This is a variable {@link FOO}, cleverLinks makes this monospace.
- * This is a link to external site {@link http://www.github.com|Github}, not monospace as it's external.
+ * This is a link to external site {@link https://github.com|Github}, not monospace as it's external.
  * This is a link to {@linkplain FOO}, but we forced it not to be monospace.
- * This is a link to {@linkcode http://www.github.com Github}, but we forced it to be monospace.
+ * This is a link to {@linkcode https://github.com Github}, but we forced it to be monospace.
  * @const
  */
 var FOO = 1;
@@ -199,14 +199,14 @@ will become:
 
 <p>
 This is a variable <a href="#"><code>FOO</code></a>, cleverLinks makes this monospace.<br />
-This is a link to external site <a href="http://www.github.com">Github</a>, not monospace as it's external.<br />
+This is a link to external site <a href="https://github.com">Github</a>, not monospace as it's external.<br />
 This is a link to <a href="#">FOO</a>, but we forced it not to be monospace.<br />
-This is a link to <a href="http://www.github.com"><code>Github</code></a>, but we forced it to be monospace.
+This is a link to <a href="https://github.com"><code>Github</code></a>, but we forced it to be monospace.
 </p>
 
 <p>
 If we had <code>templates.monospaceLinks</code> on instead, all the links would be monospace except for the "{@linkplain FOO}".
-If we had both options off (the default), all links would be in normal font except for the "{@linkcode http://www.github.com Github}".
+If we had both options off (the default), all links would be in normal font except for the "{@linkcode https://github.com Github}".
 </p>
 
 <h2 id="tutorials" name="tutorials">Links to other tutorials (@tutorial)</h2>
